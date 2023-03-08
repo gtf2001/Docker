@@ -27,7 +27,7 @@ docker -v
 
 ## Docker架构
 
-![image-20230305143148192](C:\Users\GaoTengFei\AppData\Roaming\Typora\typora-user-images\image-20230305143148192.png)
+![image-20230305143148192](https://user-images.githubusercontent.com/108125193/223714638-714db7bd-ca28-4049-8e6f-8638d2cd425d.png)
 
 ## Docker守护进程相关命令
 
@@ -125,7 +125,6 @@ docker -v
 
 - 数据卷容器
 
-![image-20230305171149511](C:\Users\GaoTengFei\AppData\Roaming\Typora\typora-user-images\image-20230305171149511.png)
 
 1. 创建启动c3数据卷容器，使用 –v 参数 设置数据卷
 
@@ -396,8 +395,8 @@ docker run -id --name=c_redis -p 6379:6379 redis:5.0
 >
 > • 不同的linux发行版，bootfs基本一样，而rootfs不同，如ubuntu ，centos等
 
-![image-20230306112432681](C:\Users\GaoTengFei\AppData\Roaming\Typora\typora-user-images\image-20230306112432681.png)
 
+![image-20230306112432681](https://user-images.githubusercontent.com/108125193/223714932-4e4c8eda-bc0b-4e5e-bc92-aacd29859567.png)
 
 
 - **Docker镜像是由特殊的文件系统叠加而成** 
